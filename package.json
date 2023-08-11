@@ -1,6 +1,6 @@
 {
   "name": "@gluestack-ui/react",
-  "version": "0.1.2-alpha.0",
+  "version": "0.1.2-alpha.2",
   "description": "",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -12,9 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/preset-env": "^7.22.9",
-    "@babel/preset-react": "^7.22.5",
-    "@babel/preset-typescript": "^7.22.5",
     "@expo/html-elements": "latest",
     "@gluestack-style/animation-plugin": "^0.1.7",
     "@gluestack-style/react": "^0.1.33",
@@ -48,17 +45,20 @@
     "@gluestack-ui/tooltip": "latest",
     "@gluestack-ui/vstack": "latest",
     "@legendapp/motion": "latest",
-    "react": "^18.2.0",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@types/react-native": "^0.71.6",
+    "react-native": "^0.70.7",
+    "react-native-web": "^0.18.12",
     "ts-loader": "^9.4.4",
     "typescript": "^5.1.6",
     "url-loader": "^4.1.1",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  },
-  "devDependencies": {
-    "@types/react-native": "^0.71.6",
-    "react-native": "^0.70.7",
-    "react-native-web": "^0.18.12"
   },
   "peerDependencies": {
     "@gluestack-style/animation-plugin": "latest",
